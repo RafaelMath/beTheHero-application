@@ -1,2 +1,2 @@
 # beTheHero-application
-application for collecting donations for ONGs
+application for collecting donations for ONG

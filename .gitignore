@@ -4,3 +4,4 @@ commands-Terminal
 /app-data/frontend/public
 /app-data/backend/node_modules
 /app-data/frontend/node_modules
+/app-data/mobile/node_modules

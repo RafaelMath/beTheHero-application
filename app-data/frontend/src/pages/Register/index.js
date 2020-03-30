@@ -30,7 +30,9 @@ export default function Register() {
             const response = await api.post('ongs', data);
     
             alert(`Seu ID de acesso: ${response.data.id}`);
-            history.push('/');    
+            history.push('/', {
+                "params": response.data.id,
+            });    
         } catch (error) {
             alert(`Erro no cadastro, tente novamente.`)
         }
@@ -82,7 +84,7 @@ export default function Register() {
                         />
                     </div>
 
-                    <button className="button" type="submit"></button>
+                    <button className="button" type="submit">Cadastrar</button>
                 </form>
             </div>
         </div>
